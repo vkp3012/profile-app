@@ -1,0 +1,22 @@
+{
+  "name": "profile-server",
+  "type": "module",
+  "version": "0.0.1",
+  "author": "vivek kumar patel",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start" : "nodemon index.js"
+  },
+  "dependencies": {
+    "cookie-parse": "^0.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "http": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.4",
+    "nodemon": "^2.0.22"
+  }
+}
